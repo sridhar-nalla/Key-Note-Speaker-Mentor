@@ -1,4 +1,5 @@
 # Key-Note-Speaker-Mentor
+AI Presentation Assistant: Create, Improve, Practice, and Present Your Slides with Avatar Narration.
 An agentic system to prepare content for key note speaker, helps with rehearsals and shares feedback on improvements
 
 ### Problem Statement (PPT + avatar + audio scoring)
