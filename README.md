@@ -17,6 +17,7 @@ Audio feedback agent, will process the user uploaded rehearsal content and share
 Advanced level agent will be able to create video with an avatar presenting it. 
 
  PresentationAgent
+ 
      ├── PPT Creator Tool (python-pptx)
      ├── PPT Editor Tool (python-pptx)
      ├── Speaker Notes Generator Tool
@@ -76,9 +77,9 @@ Example improved script
 
 📌 4. AI Avatar Video Generation Agent
 
-Generate avatar face —> Stable Diffusion
-Generate lip-synched video —> Wav2Lip
-Generate narration —> TTS (Bark, Meta TTS)
+1. Generate avatar face —> Stable Diffusion
+2. Generate lip-synched video —> Wav2Lip
+3. Generate narration —> TTS (Bark, Meta TTS)
 
 Steps:
 1. Generate narration audio from speaker notes using TTS
@@ -97,6 +98,7 @@ Stable Diffusion (for avatar)
 Your agent system could be structured like this:
 
 📘 MainAgent
+
     |-- "create_ppt" → call PresentationAgent
     |-- "edit_ppt" → call EditorAgent
     |-- "practice_speech" → call AudioEvaluationAgent
