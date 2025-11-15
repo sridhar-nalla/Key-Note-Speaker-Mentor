@@ -1,0 +1,14 @@
+python-pptx==0.6.21
+pillow
+torch
+transformers
+accelerate
+librosa
+soundfile
+gradio
+moviepy
+# whisper @ git+https://github.com/openai/whisper.git
+openai-whisper
+ffmpeg-python
+numpy
+scikit-learn
