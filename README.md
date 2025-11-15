@@ -113,9 +113,3 @@ Audio feedback agent, will process the user uploaded rehearsal content and share
 Advanced level agent will be able to create video with an avatar presenting it. 
 
 
-
-
-
-
-——————————————
-🏗️ Implementation Roadmap (Recommended Order)
